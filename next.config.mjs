@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  images: {
+    domains: ["jsonplaceholder.typicode.com","via.placeholder.com"],
+  },
+};
 
 export default nextConfig;
